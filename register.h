@@ -1,6 +1,6 @@
 #ifndef REGISTER
 #define REGISTER
-#include <"types.h"
+#include "types.h"
 enum {
 	VAX =0,
 	VBX,
@@ -15,6 +15,6 @@ enum {
 };
 
 
-uint_16 Registers[VRMAX];
+uint16 Registers[VRMAX];
 
 #endif
