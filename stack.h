@@ -1,13 +1,22 @@
 #ifndef STACK
 #define STACK
 
+#include "object.h"
+#include "types.h"
+
 typedef struct {
-	int key,
-}
+	uint64 top;
+	OBJECT data;
 
-int pop(void);
+} STACK;
 
-int push(); 
+OBJECT pop_out(void);
+
+int16 push_in(OBJECT value);
+
+int16 gettop(void);
+
+int16 isfull(void);
 
 
 

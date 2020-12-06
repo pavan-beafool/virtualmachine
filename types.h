@@ -8,7 +8,9 @@ typedef unsigned long long int uint64;
 typedef short int int16;
 typedef int int32;
 typedef long long int64;
-
+typedef short int int16;
+typedef int int32;
+typedef long long int int64;
 
 
 #endif
