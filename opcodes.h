@@ -19,6 +19,9 @@ enum {
     INT,
     LOOP,
     ENDLOOP,
+    IF,
+    ENDIF,
+    
 };
 
 #endif

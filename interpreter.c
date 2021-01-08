@@ -41,7 +41,15 @@ void main(void){
             case INT:
                 printf("INT\n");
                 break;
-            
+	    case NOP:
+		printf("NOP\n");
+		break;
+	    case LOOP:
+		printf("LOOP\n");
+		break;
+	    case ENDLOOP:
+		printf("ENDLOOP\n");
+		break;
         }
     printf("%d\n",command);
     printf("%d\n",PRINT);
